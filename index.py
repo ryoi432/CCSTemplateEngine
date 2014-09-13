@@ -53,4 +53,4 @@ body_data = body_data.decode('utf-8')
 f.close()
 
 view = {"title" : os.path.basename(filepath), "body": body_data}
-prin
+print t.render(**view)
